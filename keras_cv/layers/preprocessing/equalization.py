@@ -12,7 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import tensorflow as tf
+
 from keras_cv.utils import preprocessing
+
 
 class Equalization(tf.keras.__internal__.layers.BaseImageAugmentationLayer):
     """Equalization performs histogram equalization on a channel-wise basis.
